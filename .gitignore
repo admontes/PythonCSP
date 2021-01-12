@@ -2,3 +2,5 @@
 .mypy_cash
 Dockerfile
 .DS_Store
+.venv
+build
