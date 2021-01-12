@@ -219,14 +219,14 @@ static PyMethodDef Methods[] = {
     {"sign", sign, METH_VARARGS},
     {NULL, NULL, 0, NULL}};
 
-static struct PyModuleDef pyCSP = {
+static struct PyModuleDef PythonCSP = {
     PyModuleDef_HEAD_INIT,
-    "pyCSP",
+    "PythonCSP",
     "Python interface for CryptoPro function",
     -1,
     Methods};
 
-PyMODINIT_FUNC PyInit_pyCSP(void)
+PyMODINIT_FUNC PyInit_PythonCSP(void)
 {
-    return PyModule_Create(&pyCSP);
+    return PyModule_Create(&PythonCSP);
 };
