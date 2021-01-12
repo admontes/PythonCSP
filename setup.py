@@ -27,7 +27,7 @@ def main():
     setup(name="PythonCSP",
           version="0.1",
           description="Python interface for the Crypto Pro function",
-          author="Nickolay Kravchenko",
+          author="Nikolay Kravchenko",
           author_email="nikolay.kravchenko@gmail.com",
           ext_modules=[PythonCSP])
 
