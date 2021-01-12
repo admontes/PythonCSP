@@ -1,0 +1,4 @@
+.devcontainer
+.mypy_cash
+Dockerfile
+.DS_Store
