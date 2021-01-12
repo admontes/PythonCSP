@@ -3,5 +3,9 @@
 Dockerfile
 .DS_Store
 .venv
+<<<<<<< HEAD
 build
 .vscode
+=======
+build
+>>>>>>> b81be9cb26482f3a7dd3d10e668c07af7f5d9f5e
