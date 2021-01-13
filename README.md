@@ -1,4 +1,5 @@
-# PythonCSP
+PythonCSP
+=========
 Пакет реализующий на C нативный запуск функций из библиотек Крипто-Про.
 
 
@@ -6,7 +7,7 @@
 -------------------
 * Установить КриптоПро CSP и пакет lsb-cprocsp-devel из дистрибутива КриптоПро CSP (https://cryptopro.ru/downloads), например так:
 
-..code-block:: shell
+.. code-block:: shell
 
     /linux-amd64_deb/install.sh    
     find /linux-amd64_deb/ -type f -name "lsb-cprocsp-devel*" -exec dpkg -i "{}" \
