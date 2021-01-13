@@ -2,7 +2,6 @@ PythonCSP
 =========
 Пакет реализующий на C нативный запуск функций из библиотек Крипто-Про.
 
-
 Установка на Debian
 -------------------
 * Установить КриптоПро CSP и пакет lsb-cprocsp-devel из дистрибутива КриптоПро CSP (https://cryptopro.ru/downloads), например так:
@@ -16,7 +15,7 @@ PythonCSP
 
 .. code-block:: shell
 
-     pip install git+https://github.com/admontes/PythonCSP
+    pip install git+https://github.com/admontes/PythonCSP
      
 Описание функций пакета
 -----------------------
