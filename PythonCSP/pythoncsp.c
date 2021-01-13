@@ -9,7 +9,7 @@
 
 #define TYPE_DER (X509_ASN_ENCODING | PKCS_7_ASN_ENCODING)
 
-static PyObject *delSign(PyObject *self, PyObject *args)
+static PyObject *getContent(PyObject *self, PyObject *args)
 {
     BYTE *mem_tbs = NULL;
     size_t mem_len = 0;
@@ -215,7 +215,7 @@ static PyObject *sign(PyObject *self, PyObject *args)
 }
 
 static PyMethodDef Methods[] = {
-    {"delSign", delSign, METH_VARARGS},
+    {"get_content", getContent, METH_VARARGS},
     {"sign", sign, METH_VARARGS},
     {NULL, NULL, 0, NULL}};
 

@@ -5,7 +5,7 @@ certificate = 'Тестовый пользователь 2021'
 orig = '<Тестовая строка>'
 
 ret = pyCSP.sign(orig.encode('cp1251'), certificate)
-res = pyCSP.delSign(ret).decode("cp1251")
+res = pyCSP.get_content(ret).decode("cp1251")
 print(f'Original = {orig}')
 print(f'Unsigned = {res}')
 assert orig == res, 'Ошибка при подписании и/или снятии подписи!!!'
